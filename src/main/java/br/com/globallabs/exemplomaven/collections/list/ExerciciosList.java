@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class Exercicios {
+public class ExerciciosList {
     public static void main(String[] args) {
         //Crie uma lista e execute as seguintes operações:
         //  * adicione 5 nomes: Juliana, Pedro, Carlos, Larissa e João
@@ -13,7 +13,7 @@ public class Exercicios {
         //  * retorne o nome da posição 1.
         //  * retorne o nome da posição 4.
         //  * remova o nome João.
-        //  * retornea quantidadede itens na lista
+        //  * retorne a quantidade de itens na lista
         //  * verifique se o nome Juliano existe na lista.
         //  * crie uma nova lista comos nomes: Ismael e Rodrigo. Adicione todos os itens da nova lista na 1ª lista criada
         //  * ordene os itens da lista por ordem alfabética.

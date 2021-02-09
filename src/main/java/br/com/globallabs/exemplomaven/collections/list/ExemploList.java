@@ -66,6 +66,5 @@ public class ExemploList {
         //next - retorna o objeto que está iterando no momento
         while (iterator.hasNext())
             System.out.println(iterator.next());
-
     }
 }
