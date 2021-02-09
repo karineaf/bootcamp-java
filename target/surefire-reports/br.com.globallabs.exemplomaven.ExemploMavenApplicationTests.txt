@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: br.com.globallabs.exemplomaven.ExemploMavenApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.353 s - in br.com.globallabs.exemplomaven.ExemploMavenApplicationTests
