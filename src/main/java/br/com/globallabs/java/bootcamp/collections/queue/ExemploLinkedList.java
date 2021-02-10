@@ -1,4 +1,4 @@
-package br.com.globallabs.exemplomaven.collections.queue;
+package br.com.globallabs.java.bootcamp.collections.queue;
 
 import java.util.Iterator;
 import java.util.LinkedList;
@@ -44,7 +44,10 @@ public class ExemploLinkedList {
            System.out.println(iterator.next());
 
         System.out.println("Quantos elementos: " + filaDeBanco.size());
-        System.out.println("A lista está vazia? " + filaDeBanco.isEmpty() );
+        System.out.println("A lista está vazia? " + filaDeBanco.isEmpty());
+
+        //erro de compilação
+        //Collections.sort(filaDeBanco);
 
     }
 }

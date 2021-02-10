@@ -1,4 +1,4 @@
-package br.com.globallabs.exemplomaven.collections.list;
+package br.com.globallabs.java.bootcamp.collections.list;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -15,7 +15,7 @@ public class ExerciciosList {
         //  * remova o nome João.
         //  * retorne a quantidade de itens na lista
         //  * verifique se o nome Juliano existe na lista.
-        //  * crie uma nova lista comos nomes: Ismael e Rodrigo. Adicione todos os itens da nova lista na 1ª lista criada
+        //  * crie uma nova lista com novos nomes: Ismael e Rodrigo. Adicione todos os itens da nova lista na 1ª lista criada
         //  * ordene os itens da lista por ordem alfabética.
         //  * verifique se a lista está vazia.
 

@@ -1,4 +1,4 @@
-package br.com.globallabs.exemplomaven.collections.list;
+package br.com.globallabs.java.bootcamp.collections.list;
 
 import java.util.ArrayList;
 import java.util.Collections;

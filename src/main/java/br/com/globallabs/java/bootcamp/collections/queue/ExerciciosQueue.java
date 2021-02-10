@@ -1,4 +1,4 @@
-package br.com.globallabs.exemplomaven.collections.queue;
+package br.com.globallabs.java.bootcamp.collections.queue;
 
 import java.util.LinkedList;
 import java.util.Queue;
@@ -11,7 +11,7 @@ public class ExerciciosQueue {
         //  * navegue na lista exibindo cada nome no console
         //  * retorne o 1º item da fila, sem removê-lo
         //  * retorne o 1º item da fila, removendo o mesmo
-        //  * adicione um nove nome: Daniel. Verifique a posição que o mesmo assumiu na fila.
+        //  * adicione um novo nome: Daniel. Verifique a posição que o mesmo assumiu na fila.
         //  * retorne o tamanho da lisa.
         //  * verifique se a lista está vazia.
         //  * verifique se o nomes Carlos está na lista.
@@ -40,5 +40,7 @@ public class ExerciciosQueue {
         System.out.println("A lista está vazia? " + nomes.isEmpty());
 
         System.out.println("Carlos está na lista?  " + nomes.contains("Carlos"));
+
+
     }
 }
