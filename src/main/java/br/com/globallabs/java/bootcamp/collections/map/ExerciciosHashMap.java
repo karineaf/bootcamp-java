@@ -1,5 +1,5 @@
 
-package br.com.globallabs.java.bootcamp.map;
+package br.com.globallabs.java.bootcamp.collections.map;
 
 import java.util.HashMap;
 
@@ -61,7 +61,6 @@ public class ExerciciosHashMap {
         estados.put("AES", null);
 
         System.out.println(estados);
-
 
     }
 }

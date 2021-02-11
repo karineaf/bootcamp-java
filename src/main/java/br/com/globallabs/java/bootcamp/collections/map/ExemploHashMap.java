@@ -1,4 +1,4 @@
-package br.com.globallabs.java.bootcamp.map;
+package br.com.globallabs.java.bootcamp.collections.map;
 
 import java.util.HashMap;
 import java.util.Map;
