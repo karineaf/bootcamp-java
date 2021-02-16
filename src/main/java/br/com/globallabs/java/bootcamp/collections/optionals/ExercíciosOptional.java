@@ -35,22 +35,17 @@ public class ExercíciosOptional {
         optionalNull.map((valor) -> valor.replace("Valor presente no optional", "Novo valor para optional")).ifPresent(System.out::println);
 
         String variavel = "seila";
-        if(optionalVazio.isPresent())
-            variavel=optionalVazio.get();
+        if (optionalVazio.isPresent())
+            variavel = optionalVazio.get();
         System.out.println(variavel);
 
-        if(optionalVazio.isPresent())
-            variavel=optionalPresente.get();
+        if (optionalVazio.isPresent())
+            variavel = optionalPresente.get();
         System.out.println(variavel);
 
-        if(optionalVazio.isPresent())
-            variavel=optionalNull.get();
+        if (optionalVazio.isPresent())
+            variavel = optionalNull.get();
         System.out.println(variavel);
-
-
-
-
-
 
     }
 }

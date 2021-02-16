@@ -38,7 +38,7 @@ public class ExerciciosComparators {
         System.out.println(clientes);
 
         clientes.sort((first, second) -> first.getIdade() - second.getIdade());
-        System.out.println("Ordem natural com lambda: " +clientes);
+        System.out.println("Ordem natural com lambda: " + clientes);
 
 
 
