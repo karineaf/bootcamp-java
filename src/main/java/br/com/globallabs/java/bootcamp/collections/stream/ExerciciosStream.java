@@ -34,17 +34,23 @@ public class ExerciciosStream {
 
         System.out.println("Quantidade de pacientes: " + pacientes.stream().count());
 
-        System.out.println("Pacientes com idade >= 18: " + pacientes.stream().filter(paciente -> paciente.getIdade() >= 18).collect(Collectors.toList()));
+        System.out.println("Pacientes com idade >= 18: " +
+                pacientes.stream().filter(paciente -> paciente.getIdade() >= 18).collect(Collectors.toList()));
 
-        System.out.println("Todos pacientes: " + pacientes.stream().peek(System.out::println).collect(Collectors.toList()));
+        System.out.println("Todos pacientes: " +
+                pacientes.stream().peek(System.out::println).collect(Collectors.toList()));
 
-        System.out.println("Pacientes que possuem a letra H: " + pacientes.stream().filter(paciente -> paciente.getNome().toLowerCase(Locale.ROOT).contains("h")).collect(Collectors.toList()));
+        System.out.println("Pacientes que possuem a letra H: " + pacientes.stream()
+                .filter(paciente -> paciente.getNome().toLowerCase(Locale.ROOT).contains("h")).collect(Collectors.toList()));
 
-        System.out.println("Existe algum paciente com a letra D? " + pacientes.stream().anyMatch(paciente -> paciente.getNome().toLowerCase(Locale.ROOT).contains("d")));
+        System.out.println("Existe algum paciente com a letra D? " +
+                pacientes.stream().anyMatch(paciente -> paciente.getNome().toLowerCase(Locale.ROOT).contains("d")));
 
-        System.out.println("Paciente mais velho: " + pacientes.stream().max(Comparator.comparing(Paciente::getIdade)).get());
+        System.out.println("Paciente mais velho: " +
+                pacientes.stream().max(Comparator.comparing(Paciente::getIdade)).get());
 
-        System.out.println("Paciente mais novo: " + pacientes.stream().min(Comparator.comparing(Paciente::getIdade)).get());
+        System.out.println("Paciente mais novo: " +
+                pacientes.stream().min(Comparator.comparing(Paciente::getIdade)).get());
 
     }
 }
